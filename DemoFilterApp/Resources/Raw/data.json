@@ -1,0 +1,149 @@
+[
+
+
+  {
+    "id": "1",
+    "brand": "Acer",
+    "model": "Aspire 3 A315-58-34LC",
+    "cpu": "i3",
+    "ram": "8GB DDR4",
+    "hasgpu": "false",
+    "gpu": "",
+    "hdd": "512GB NVME SSD",
+    "os": "Windows 11 Home",
+    "size": "15.6",
+    "price": "7499",
+    "image": "one.jpg",
+    "url": "https://www.computermania.co.za/acer-aspire-3-a315-58-34lc-intel-core-i3-11th-gen-512gb-ssd.html"
+
+  },
+  {
+    "id": "2",
+    "brand": "Asus",
+    "model": "X515EA-I382G5W",
+    "cpu": "i3 115G4",
+    "ram": "8GB DDR4",
+    "hasgpu": "false",
+    "gpu": "",
+    "hdd": "256GB NVME SSD",
+    "os": "Windows 11 Home",
+    "size": "15.6",
+    "price": "6999",
+    "image": "two.jpg",
+    "url": "https://www.computermania.co.za/asus-x515ea-i382g5w-intel-core-i3-11th-gen-15-6-hd-display-8gb-ram-256gb-ssd-slate-grey.html"
+
+  },
+  {
+    "id": "3",
+    "brand": "Lenovo",
+    "model": "Ideapad 3 Slim",
+    "cpu": "i3 N305",
+    "ram": "8GB DDR5",
+    "hasgpu": "false",
+    "gpu": "",
+    "hdd": "512GB NVME SSD",
+    "os": "Windows 11 Home",
+    "size": "15.6",
+    "price": "7999",
+    "image": "three.jpg",
+    "url": "https://www.computermania.co.za/lenovo-ideapad-3-slim-core-i3-512gb-ssd-windows-11-artic-grey-computer-mania-notebook-backpack.html"
+
+  },
+  {
+    "id": "4",
+    "brand": "HP",
+    "model": "15S",
+    "cpu": "i3 1125G4",
+    "ram": "4GB DDR4",
+    "hasgpu": "false",
+    "gpu": "",
+    "hdd": "512GB NVME SSD",
+    "os": "Windows 11 Home",
+    "size": "15.6",
+    "price": "7999",
+    "image": "four.jpg",
+    "url": "https://www.computermania.co.za/hp-15s-core-i3-11th-gen-4gb-ram-256gb-ssd-windows-11-home.html"
+
+  },
+  {
+    "id": "5",
+    "brand": "MSI",
+    "model": "Modern 14 C11M-204ZA",
+    "cpu": "i3 115G4",
+    "ram": "8GB DDR4",
+    "hasgpu": "false",
+    "gpu": "",
+    "hdd": "512GB NVME SSD",
+    "os": "Windows 11 Home",
+    "size": "14",
+    "price": "7499",
+    "image": "five.jpg",
+    "url": "https://www.computermania.co.za/msi-modern-14-c11m-204za-core-i3-11th-gen-8gb-512gb-ssd-carbon-grey.html"
+
+  },
+  {
+    "id": "6",
+    "brand": "Dell",
+    "model": "Inspiron 15 3520",
+    "cpu": "i5 1135G7",
+    "ram": "8GB DDR4",
+    "hasgpu": "false",
+    "gpu": "",
+    "hdd": "512GB NVME SSD",
+    "os": "Windows 11 Home",
+    "size": "15.6",
+    "price": "12499",
+    "image": "six.jpg",
+    "url": "https://www.computermania.co.za/dell-inspiron-15-3520-15-6-full-hd-core-i5-11th-gen-8gb-ram-512gb-ssd-carbon-black.html"
+
+  },
+  {
+    "id": "7",
+    "brand": "Acer",
+    "model": "Aspire 3 A315-58-52C4",
+    "cpu": "i5 1135G7",
+    "ram": "8GB DDR4",
+    "hasgpu": "false",
+    "gpu": "",
+    "hdd": "512GB NVME SSD",
+    "os": "Windows 11 Home",
+    "size": "15.6",
+    "price": "12999",
+    "image": "one.jpg",
+    "url": "https://www.computermania.co.za/acer-aspire-3-a315-58-52c4-intel-core-i5-11th-gen-8gb-ram-512gb-ssd-silver.html"
+
+  },
+  {
+    "id": "8",
+    "brand": "Asus",
+    "model": "Gaming F15 FX506HF-I58512B0W",
+    "cpu": "i5 11400H",
+    "ram": "8GB DDR4",
+    "hasgpu": "true",
+    "gpu": "RTX 2050 4GB",
+    "hdd": "512GB NVME SSD",
+    "os": "Windows 11 Home",
+    "size": "15.6",
+    "price": "24999",
+    "image": "eight.jpg",
+    "url": "https://www.computermania.co.za/asus-tuf-gaming-f15-fx506hf-i58512b0w-intel-core-i5-11th-gen-8gb-ram-512gb-ssd-nvidia-rtx-2050-4gb.html"
+
+  },
+  {
+    "brand": "Acer",
+    "cpu": "i7 1355U",
+    "gpu": "",
+    "hasgpu": "false",
+    "hdd": "1TB NVME SSD",
+    "id": "9",
+    "model": "Aspire 5 A515-58M-714Q",
+    "os": "Windows 11 Home",
+    "price": "18999",
+    "ram": "16GB DDR5",
+    "size": "15.6",
+    "image": "nine.jpg",
+    "url": "https://www.computermania.co.za/acer-aspire-5-a515-58m-714c-core-i7-13th-gen-16gb-lpddr5-1tb-ssd-steel-grey.html"
+  }
+
+  
+]

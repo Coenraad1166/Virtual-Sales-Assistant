@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoFilterApp.MVVM.Views.SelectType"
+             Title="SelectType" NavigationPage.HasNavigationBar="False">
+    <Grid RowDefinitions="100,*" Padding="10">
+        <VerticalStackLayout Grid.Row="0">
+            <Frame HorizontalOptions="FillAndExpand" BackgroundColor="#0b3254">
+                <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" >
+                    <Label Text="My Needs Suggestion" TextColor="White" FontSize="32" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+        <Grid Grid.Row="1" RowDefinitions="100,50,50,*" ColumnDefinitions="0.5*,0.5*">
+            <Label Text="Hi, We are here to help you make it an easier descicion for choosing your new computer. Please answer all the following questions and we will provide you with a list of computers based on your answers." Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" />
+            <Button Grid.Row="1" Text="Laptop" TextColor="#0b3254" BorderWidth="2" BorderColor="#0b3254" Background="white" VerticalOptions="Center"  FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Padding="40,0,40,0" Clicked="TypeButton_Clicked"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="Desktop" TextColor="#0b3254" BorderWidth="2" BorderColor="#0b3254" Background="white" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold" Padding="40,0,40,0" Clicked="TypeButton_Clicked"/>
+            <Button Grid.Row="3" Grid.ColumnSpan="2" Text="NEXT" FontAttributes="Bold" Background="#0b3254" TextColor="White" VerticalOptions="Start" Clicked="NextButton_Clicked"
+                    />
+        </Grid>
+    </Grid>
+</ContentPage>

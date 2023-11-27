@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoFilterApp.MVVM.Views.SuggestionPage"
+             Title="SuggestionPage" NavigationPage.HasNavigationBar="False">
+   
+ 
+    <Grid RowDefinitions="*,5*" Padding="3">
+        <Frame HorizontalOptions="FillAndExpand" BackgroundColor="#0b3254">
+            <VerticalStackLayout HeightRequest="50" VerticalOptions="Center" HorizontalOptions="Center" >
+                <Label Text="My Needs Suggestion" TextColor="White" FontSize="32" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            </VerticalStackLayout>
+        </Frame>
+        <ScrollView Grid.Row="1" Margin="0,20,0,0">
+            <ListView x:Name="listView" RowHeight="150" SeparatorVisibility="None" IsEnabled="true"  >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                        <ViewCell IsEnabled="True" >
+                            <Grid ColumnDefinitions="5,*,*" RowDefinitions="*,*,*">
+                                <Frame CornerRadius="0" Grid.RowSpan="3" Grid.Column="0" BackgroundColor="blue"></Frame>
+                                <Image Grid.RowSpan="3" Grid.Column="1" Source="{Binding Image}" Aspect="AspectFit"/>
+                                <VerticalStackLayout Grid.Column="2" Grid.Row="0" Margin="0,15,0,0">
+                                    <Label Text="{Binding Brand}" FontSize="18" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Model}"/>
+                                </VerticalStackLayout>
+                                <Label Grid.Row="1" VerticalTextAlignment="End" Grid.Column="2" FontSize="16" Text="{Binding Price, StringFormat='R{0}.00'}" TextColor="Red" FontAttributes="Bold"/>
+                                <Button Clicked="Button_Clicked" Grid.Column="2" FontSize="12" Grid.Row="2" HorizontalOptions="StartAndExpand" VerticalOptions="End" BackgroundColor="Transparent" TextColor="#0b3254" Text="View Details" Padding="0" Margin="0" FontAttributes="Bold"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </Grid>
+  
+</ContentPage>
